@@ -1,4 +1,5 @@
-    <h3>Bereken de prijs</h3>	
+    <h3>Bereken de prijs</h3>
+    <h1>swag1</h1>	
 	
 	<form method="POST">
 		Leeftijd: <input type="number" name="leeftijd">
