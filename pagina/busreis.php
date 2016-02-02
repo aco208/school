@@ -1,5 +1,5 @@
-    <h3>Bereken de prijs</h3>	
-	
+<?php include 'navigation.php';?>    
+<h3>Bereken de prijs</h3>	
 	<form method="POST">
 		Leeftijd: <input type="number" name="leeftijd">
 		<input type="submit" name="verzend" value="Bereken">
@@ -26,8 +26,3 @@
 	}
     ?>
     <h4><?php echo $prijsString ?></h4>
-
-
-
-
-

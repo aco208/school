@@ -9,5 +9,32 @@ handlers:
   static_files: favicon.ico
   upload: favicon\.ico
 
-- url: .*
-  script: main.php
+- url: /
+  script: index.php
+  
+- url: /navigation.php
+  script: /navigation.php
+  
+- url: /main.css
+  script: /CSS/main.css
+  
+- url: /hello-world.php
+  script: /pagina/hello-world.php
+  
+- url: /busreis.php
+  script: /pagina/busreis.php
+  
+- url: /kerstboom.php
+  script: /pagina/kerstboom.php
+  
+- url: /for-loop.php
+  script: /pagina/for-loop.php
+  
+- url: /zwemmers.php
+  script: /pagina/zwemmers.php
+  
+- url: /kapper.php
+  script: /pagina/kapper.php
+  
+
+  
