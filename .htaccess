@@ -1,0 +1,12 @@
+php_value auto_prepend_file "/var/www/html/school/php/navigation.php"
+
+# --------------------------  URL Rewrite -----------------------------
+RewriteEngine on
+
+# pages url rewrite
+RewriteRule    ^hello-world/?$    /pagina/hello-world.php    [NC,L]    # Handle requests for "Hello World"
+RewriteRule    ^busreis/?$        /pagina/busreis.php        [NC,L]    # Handle requests for "busreis"
+RewriteRule    ^kerstboom/?$      /pagina/kerstboom.php      [NC,L]    # Handle requests for "kerstboom"
+RewriteRule    ^for-loop/?$       /pagina/for-loop.php       [NC,L]    # Handle requests for "for-loop"
+RewriteRule    ^zwemmers/?$       /pagina/zwemmers.php       [NC,L]    # Handle requests for "zwemmers"
+RewriteRule    ^kapper/?$         /pagina/kapper.php         [NC,L]    # Handle requests for "kapper"

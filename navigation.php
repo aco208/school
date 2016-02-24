@@ -19,12 +19,12 @@
       <li class="active"><a href="/">Home</a></li>
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Periode 3<span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="/hello-world.php">Hello World</a></li>
-          <li><a href="/busreis.php">Busreis</a></li>
-          <li><a href="/kerstboom.php">kerstboom</a></li>
-          <li><a href="/for-loop.php">Van While naar For loop</a></li>
-          <li><a href="/zwemmers.php">Zwemmers</a></li>
-          <li><a href="/kapper.php">Kapper</a></li>
+          <li><a href="/hello-world">Hello World</a></li>
+          <li><a href="/busreis">Busreis</a></li>
+          <li><a href="/kerstboom">kerstboom</a></li>
+          <li><a href="/for-loop">Van While naar For loop</a></li>
+          <li><a href="/zwemmers">Zwemmers</a></li>
+          <li><a href="/kapper">Kapper</a></li>
         </ul>
       </li>
     </ul>
